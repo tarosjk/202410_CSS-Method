@@ -1,0 +1,26 @@
+@use './variables' as *;
+@use './mixin' as *;
+
+// キービジュアル
+.c_kv {
+  overflow: hidden;
+  background-color: #ded6c5;
+  aspect-ratio: 3 / 4;
+
+  @include desktop {
+    aspect-ratio: initial;
+    height: 360px;
+  }
+
+  &__inner {
+    width: 100%;
+
+    @include desktop {
+      max-width: 1024px;
+      height: 360px;
+      margin: 0 auto;
+    }
+  }
+
+  // TODO: スライドショーのスタイル
+}

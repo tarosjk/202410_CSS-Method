@@ -341,4 +341,26 @@ body.is-openMenu .l_gnav {
 }
 .l_breadcrumb__item strong {
   line-height: 1;
+}
+
+.c_kv {
+  overflow: hidden;
+  background-color: #ded6c5;
+  aspect-ratio: 3/4;
+}
+@media (min-width: 1000px) {
+  .c_kv {
+    aspect-ratio: initial;
+    height: 360px;
+  }
+}
+.c_kv__inner {
+  width: 100%;
+}
+@media (min-width: 1000px) {
+  .c_kv__inner {
+    max-width: 1024px;
+    height: 360px;
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=style.css.map */
