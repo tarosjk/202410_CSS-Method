@@ -422,14 +422,11 @@ body.is-openMenu .l_gnav {
   content: " | ";
   color: #fff;
 }
-<<<<<<< HEAD
 @media (min-width: 1000px) {
   .l_footer__navItem + .l_footer__navItem::before {
     content: none;
   }
 }
-=======
->>>>>>> 39e455c99d3825fc5b64577e3bf0b7a47468b447
 .l_footer__navItem a {
   color: #fff;
   text-decoration: none;
